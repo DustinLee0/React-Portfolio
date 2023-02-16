@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+h1 a {
+    text-decoration: none;
+    color: rgb(0, 0, 190);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item a {
+    color: white;
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-card {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-item {
+    padding: 10px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-item a:hover {
+    color: yellow;
+    transition: 0.7s;
+    font-size: 18px;
+}
+
+.footer-card {
+    background-color: black;
+    color: white;
+    padding: 13px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.footer-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-item a:hover {
+    color: blue;
+    transition: 0.7s;
+    font-size: 18px;
+}
+
+.home-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./Assets/Images/background.JPG');
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-item {
+    padding: 0 54px ;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.personal-pic {
+    border-radius: 50%;
+    height: 350px;
+    width: auto;
+    border: 3px solid #ddd;
+}
+
+.quote {
+    color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    width: 579px;
+    justify-content: end;
+    text-align: right;
+    font-size: x-large;
+}
+
+#main-card {
+    margin: 20px 0;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.about-me {
+    padding: 0 100px;
+    color: white;
 }
