@@ -4,6 +4,7 @@ import { useState } from 'react';
 // pages
 import Home from './components/pages/Home'
 import AboutMe from './components/pages/AboutMe'; 
+import Portfolio from './components/pages/Portfolio'; 
 
 // components
 import Navbar from './components/Navbar';
@@ -23,6 +24,8 @@ function App() {
       return <Home page={page} handlePageRender={handlePageRender} />
     } else if (page === "about-me") {
       return <AboutMe />
+    } else if (page === "portfolio") {
+      return <Portfolio />
     } 
 
   }
