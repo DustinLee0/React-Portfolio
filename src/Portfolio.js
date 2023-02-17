@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Home from './components/pages/Home';
 import AboutMe from './components/pages/AboutMe'; 
 import Projects from './components/pages/Projects'; 
+import Contact from './components/pages/Contact';
 
 // components
 import Navbar from './components/Navbar';
@@ -26,6 +27,8 @@ function Portfolio() {
       return <AboutMe />;
     } else if (page === "projects") {
       return <Projects />;
+    } else if (page === "contact") {
+      return <Contact />;
     } 
 
   }
