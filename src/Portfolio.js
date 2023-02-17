@@ -1,31 +1,31 @@
-import './App.css';
+import './Portfolio.css';
 import { useState } from 'react';
 
 // pages
-import Home from './components/pages/Home'
+import Home from './components/pages/Home';
 import AboutMe from './components/pages/AboutMe'; 
-import Portfolio from './components/pages/Portfolio'; 
+import Projects from './components/pages/Projects'; 
 
 // components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
-function App() {
+function Portfolio() {
   // use state to render page when nav links clicked
   const [page, setPage] = useState('home');
 
   const handlePageRender = page => {
     // console.log('handlepage render func hit: ')
     setPage(page);
-  }
+  };
 
   const renderPage = () => {
     if (page === "home") {
-      return <Home page={page} handlePageRender={handlePageRender} />
+      return <Home page={page} handlePageRender={handlePageRender} />;
     } else if (page === "about-me") {
-      return <AboutMe />
-    } else if (page === "portfolio") {
-      return <Portfolio />
+      return <AboutMe />;
+    } else if (page === "projects") {
+      return <Projects />;
     } 
 
   }
@@ -41,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default Portfolio;
