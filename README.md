@@ -3,6 +3,8 @@
 
 The task given was to build a SPA(Single Page Application) using [React](https://reactjs.org/docs/getting-started.html). The application is a portfolio of the developer giving information about them, past projects etc.
 
+Deployed link [here](https://dustinlee0.github.io/React-Portfolio/)
+
 ## Installation 
 Dependencies listed under package.json. 
 Clone the repository and run:   
