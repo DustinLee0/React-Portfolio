@@ -4,6 +4,7 @@ import noteTaker from '../../Assets/Images/noteTaker.jpeg'
 import techBlog from '../../Assets/Images/techBlog.jpeg'
 import teamProfile from '../../Assets/Images/teamProfile.jpeg'
 import weather from '../../Assets/Images/weather.jpeg'
+import collectionPage from '../../Assets/Images/collections.jpeg'
 
 import githubIcon from '../../Assets/Images/githubIcon.jpg';
 import linkIcon from '../../Assets/Images/link.jpg';
@@ -51,6 +52,13 @@ export default function Projects() {
             deployed: '',
             alt: 'Image of html page built with application displaying team members',
             title: 'Team Profile Generator App'
+        },
+        {
+            img: collectionPage,
+            github: 'https://github.com/DustinLee0/project-3-E-commerce',
+            deployed: 'https://on-code-e-commerce.herokuapp.com/',
+            alt: 'Image of collection page of e-commerce webpage',
+            title: 'On Code E-Commerce Page'
         },
     ]
 
