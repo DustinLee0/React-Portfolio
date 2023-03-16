@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.c7b8b830.css",
+    "main.js": "/React-Portfolio/static/js/main.429d2b79.js",
+    "static/media/background.JPG": "/React-Portfolio/static/media/background.1d53a51bfcf1e5562c6e.JPG",
+    "static/media/project2.jpeg": "/React-Portfolio/static/media/project2.7eb8c3116eae25a89acd.jpeg",
+    "static/media/profilePic.jpg": "/React-Portfolio/static/media/profilePic.fa87a0e4d36fac4ef5b5.jpg",
+    "static/media/collections.jpeg": "/React-Portfolio/static/media/collections.cfcdf6fc88452e364024.jpeg",
+    "static/media/weather.jpeg": "/React-Portfolio/static/media/weather.990935a180a0d2e9162f.jpeg",
+    "static/media/techBlog.jpeg": "/React-Portfolio/static/media/techBlog.f49e624f34f090096c5d.jpeg",
+    "static/media/project1.jpeg": "/React-Portfolio/static/media/project1.140af99dce5f5de2fad3.jpeg",
+    "static/media/teamProfile.jpeg": "/React-Portfolio/static/media/teamProfile.d070b6ccde7fa6af7bf2.jpeg",
+    "static/media/githubIcon.jpg": "/React-Portfolio/static/media/githubIcon.79989e822c0480f85274.jpg",
+    "static/media/noteTaker.jpeg": "/React-Portfolio/static/media/noteTaker.db5487ca9d72faa8b74f.jpeg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.c7b8b830.css.map": "/React-Portfolio/static/css/main.c7b8b830.css.map",
+    "main.429d2b79.js.map": "/React-Portfolio/static/js/main.429d2b79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7b8b830.css",
+    "static/js/main.429d2b79.js"
+  ]
+}
