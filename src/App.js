@@ -1,5 +1,5 @@
+import React from 'react';
 import './App.css';
-// import { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // pages
@@ -40,31 +40,29 @@ function Portfolio() {
 
   return (
     <Router>
-      <div>
-        <Navbar />
-        <div id="main-card">
-          {/* {renderPage()} */}
-          <Routes>
-            <Route
-              path="/"
-              element={<Home />}
-            />
-                        <Route
-              path="/about-me"
-              element={<AboutMe />}
-            />
-                        <Route
-              path="/projects"
-              element={<Projects />}
-            />
-                        <Route
-              path="/contact"
-              element={<Contact />}
-            />
-          </Routes>
-        </div>
-        <Footer />
+      <Navbar />
+      <div id="main-card">
+        {/* {renderPage()} */}
+        <Routes>
+          <Route
+            path="/"
+            element={<Home />}
+          />
+          <Route
+            path="/about-me"
+            element={<AboutMe />}
+          />
+          <Route
+            path="/projects"
+            element={<Projects />}
+          />
+          <Route
+            path="/contact"
+            element={<Contact />}
+          />
+        </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }
